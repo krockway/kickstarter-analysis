@@ -8,11 +8,11 @@ The purpose of this analysis is to help Louise determine the most successful cri
 
 ### Analysis of Outcomes Based on Launch Date
 Campaign launch dates for theaters were charted by month based on their success, failure or cancellation. Live data was filtered out to only show finished campaigns.
-docs/Theater_Outcomes_vs_Launch.png
+kickstarter-analysis/Theater_Outcomes_vs_Launch.png
 ### Analysis of Outcomes Based on Goals
 Campaign fundraising goals were grouped into 12 categories, I then calculated the percent success, fail and cancellation rates for each of these fundraising groups using the COUNTIFS formula.
 The most successful campaigns set a goal for less than $1000; the least successful campaigns set a goal for more than $45,000.
-docs/Outcomes_vs_Goals.png
+https://github.com/krockway/kickstarter-analysis/blob/main/Outcomes_vs_Goals.png
 ### Challenges and Difficulties Encountered
 Initially I filtered the raw data to count the outcome based on the goals. I realized that once this data was unfiltered, it would impact the Outcomes Based on Goals tab. I then updated the COUNTIF formula to include a criteria for "plays" to eliminate this issue.
 ## Results
